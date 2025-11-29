@@ -1,11 +1,11 @@
 /* #region BASIC FONT AND COLOR SETUP */
 p, a, li{
     font-family: 'Electrolize', sans-serif;
-    color: black;
+    color: white;
 }
 
 #nav-list a {
-    color: black;
+    color: white;
     display: inline-block;
     text-decoration: none;
 }
@@ -17,7 +17,7 @@ p, a, li{
 h1, h2, h3 {
     font-family: 'Jacquard 24', sans-serif;
     font-size: 2.5em;
-    color: black;
+    color: white;
     margin-block-start: 10px;
     margin-block-end: 10px;
 }
@@ -35,8 +35,8 @@ h1, h2, h3 {
 
 /* Styling for the header */
 header {
-    background-color: rgba(86, 159, 255, 0.5);
-    border: rgba(86, 159, 255, 0.5) 6px outset;
+    background-color: #679ac4a3;
+    border: rgba(86, 159, 255, 0.5) 4px outset;
     border-radius: 15px;
     text-align: center;
     color: white;
@@ -56,18 +56,18 @@ body {
 }
 /* Styling for the aside elements */
 aside {
-    border: black 2px solid;
+    border: rgba(86, 159, 255, 0.5) 4px outset;
     border-radius: 15px;
     padding: 10px;
-    background-color: rgba(86, 159, 255, 0.5);
+    background-color: #679ac4a3;
 }
 
 /* Styling for the main content area */
 main {
-    border: black 2px solid;
+    border: rgba(86, 159, 255, 0.5) 4px outset;
     border-radius: 15px;
     padding: 10px;
-    background-color: rgba(86, 159, 255, 0.5);
+    background-color: #679ac4a3;
     flex-grow: 1;
     margin-left: 5px;
     margin-right: 5px;
