@@ -5,21 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <link href="styles/main.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Jacquard+24&display=swap');
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1 id="header-title">Welcome to My Website</h1>
     </header>
     
     <div class="columns">
         <aside>
             <h3>Left Sidebar</h3>
-            <p>Navigation or additional content here</p>
+            <p>Navigation [WIP]</p>
             <!-- implement the nav bar properly-->
             <nav>
-                <ul>
+                <ul id="nav-list">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Blog</a></li>
+                    <li><a href="site-development.html">Site Development</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -28,14 +32,17 @@
         
         <main>
             <h2>Main Content</h2>
-            <p>Hello and welcome to my page.</p>
+            <p>Hello and welcome to my page. <br>
+                I am still working on this page and I'll add a dedicated Site-Development page soon!
+            </p>
         </main>
             <aside class="aside-game">
                 <h3>Currently Playing:</h3>
-                <img class="game-cover" src="https://via.placeholder.com/200" alt="Album Cover">
-                <p class="game-desc">Additional content here</p>
+                <img id="game-cover" class="game-cover" alt="Album Cover">
+                <p id="game-name" class = "game-name">Resident Evil 4 (Remake)</p>
             </aside>
     </div>
+        <script src="scripts/game-fetcher.js"></script>
 </body>
 </html>
 

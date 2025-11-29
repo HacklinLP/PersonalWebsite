@@ -1,7 +1,38 @@
+/* #region BASIC FONT AND COLOR SETUP */
+p, a, li{
+    font-family: 'Electrolize', sans-serif;
+    color: black;
+}
+
+#nav-list a {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#nav-list a.selected {
+    color: gray;
+}
+
+h1, h2, h3 {
+    font-family: 'Jacquard 24', sans-serif;
+    font-size: 2.5em;
+    color: black;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+#header-title {
+    font-size: 3em; 
+    color: white;
+}
+/* #endregion */
+
 .columns {
     display: flex;
     width: 100%;
 }
+
 /* Styling for the header */
 header {
     background-color: rgba(86, 159, 255, 0.5);
@@ -15,7 +46,7 @@ header {
 
 /* Styling for the entire body */
 body {
-    background-image: url('../images/bodybg.jpg');
+    background-image: url('../images/Image-bloodborne-screen-36d.webp');
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -25,7 +56,7 @@ body {
 }
 /* Styling for the aside elements */
 aside {
-    border: black 1px solid;
+    border: black 2px solid;
     border-radius: 15px;
     padding: 10px;
     background-color: rgba(86, 159, 255, 0.5);
@@ -33,7 +64,7 @@ aside {
 
 /* Styling for the main content area */
 main {
-    border: black 1px solid;
+    border: black 2px solid;
     border-radius: 15px;
     padding: 10px;
     background-color: rgba(86, 159, 255, 0.5);
@@ -59,4 +90,3 @@ main {
 .aside-game .game-desc {
     max-width: 220px;
 }
-
