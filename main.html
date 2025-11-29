@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
-    <style href="styles/main.css" rel="stylesheet"></style>
+    <link href="styles/main.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -15,17 +15,26 @@
         <aside>
             <h3>Left Sidebar</h3>
             <p>Navigation or additional content here</p>
+            <!-- implement the nav bar properly-->
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </aside>
         
         <main>
             <h2>Main Content</h2>
-            <p>Your main content goes here</p>
+            <p>Hello and welcome to my page.</p>
         </main>
-        
-        <aside>
-            <h3>Right Sidebar</h3>
-            <p>Additional content here</p>
-        </aside>
+            <aside class="aside-game">
+                <h3>Currently Playing:</h3>
+                <img class="game-cover" src="https://via.placeholder.com/200" alt="Album Cover">
+                <p class="game-desc">Additional content here</p>
+            </aside>
     </div>
 </body>
 </html>

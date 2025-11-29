@@ -1,5 +1,62 @@
 .columns {
     display: flex;
-    flex-wrap: wrap;
-    margin: 0 -15px;
+    width: 100%;
 }
+/* Styling for the header */
+header {
+    background-color: rgba(86, 159, 255, 0.5);
+    border: rgba(86, 159, 255, 0.5) 6px outset;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* Styling for the entire body */
+body {
+    background-image: url('../images/bodybg.jpg');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+}
+/* Styling for the aside elements */
+aside {
+    border: black 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(86, 159, 255, 0.5);
+}
+
+/* Styling for the main content area */
+main {
+    border: black 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(86, 159, 255, 0.5);
+    flex-grow: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* layout for the 'aside-game' centered stack */
+.aside-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+.aside-game .game-cover {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.aside-game .game-desc {
+    max-width: 220px;
+}
+
